@@ -1,4 +1,9 @@
-package solution;
+package duplicate;
+// My name: Eric Wang
+//Team Members:
+// Maria Fediakina
+// Margarita Sergienko
+// Isaac Guevarra
 public class duplicateFinder {
     public int findDuplicate(int[] nums) {
         int duplicate = 0;
