@@ -1,5 +1,13 @@
+//testers: Rita, Maria
+
 package test;
 
-private class RectangleAreaTest {
+public class RectangleAreaTest {
     
+    private class Test {
+
+    }
+
 }
+
+
