@@ -1,5 +1,4 @@
 package test;
 
-private class duplicateFinderTest {
-    
+public class duplicateFinderTest {
 }

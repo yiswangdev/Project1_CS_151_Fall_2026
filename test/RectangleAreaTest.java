@@ -1,5 +1,5 @@
 package test;
 
-private class RectangleAreaTest {
+public class RectangleAreaTest {
     
 }
