@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import slices.ArithmeticSlices;
 
 public class ArithmeticSlicesTest {
+    // tested by Eric Wang
     private final ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
 
     @Test

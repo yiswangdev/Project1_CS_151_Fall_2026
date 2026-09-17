@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import Pow.Pow;
 
 public class PowTest {
+    //tested by Eric Wang
     private final Pow pow = new Pow();
 
     @Test
