@@ -33,4 +33,5 @@ public class ArithmeticSlicesTest {
     void countsArithmeticSlicesWithNegativeNumbers() {
         assertEquals(3, arithmeticSlices.numberOfArithmeticSlices(new int[] {-1, -2, -3, -4}));
     }
+
 }

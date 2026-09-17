@@ -1,4 +1,6 @@
 package Pow;
+// My name: Maria Fediakina
+
 //Team Members:
 // Eric Wang
 // Maria Fediakina
