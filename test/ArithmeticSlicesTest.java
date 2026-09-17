@@ -1,5 +1,5 @@
 package test;
 
-private class ArithmeticSlicesTest {
+public class ArithmeticSlicesTest {
     
 }

@@ -1,5 +1,5 @@
 package test;
 
-private class PowTest {
+public class PowTest {
     
 }
