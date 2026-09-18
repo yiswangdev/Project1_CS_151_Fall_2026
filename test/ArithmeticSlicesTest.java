@@ -34,4 +34,36 @@ public class ArithmeticSlicesTest {
         assertEquals(3, arithmeticSlices.numberOfArithmeticSlices(new int[] {-1, -2, -3, -4}));
     }
 
+
+    //tests by: Isaac Guevarra
+
+    @Test 
+    void emptyArray() {
+        assertEquals(0, arithmeticSlices.numberOfArithmeticSlices(new int[] {}));
+    }
+
+    @Test 
+    void lessThan3InArray() {
+        assertEquals(0, arithmeticSlices.numberOfArithmeticSlices(new int[] {0, 2}));
+    }
+
+    @Test 
+    void allSameValuesInArray() {
+        assertEquals(1, arithmeticSlices.numberOfArithmeticSlices(new int[] {1, 1, 1}));
+    }
+
+    @Test 
+    void decreasingOrderInArray() {
+        assertEquals(1, arithmeticSlices.numberOfArithmeticSlices(new int[] {5, 3, 1}));
+    }
+
+    @Test 
+    void noArithmeticSequenceIn3Values() {
+        assertEquals(0, arithmeticSlices.numberOfArithmeticSlices(new int[] {1, 2, 4}));
+    }
+
+    @Test 
+    void arithmeticBeginsLater() {
+        assertEquals(4, arithmeticSlices.numberOfArithmeticSlices(new int[] {1, 2, 3, 4, 6, 8}));
+    }
 }
